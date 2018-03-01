@@ -1,3 +1,7 @@
+# Best Case: O(n log n) time, when division is balanced
+# Worst Case: O(n²), when the list is already sorted or reversely sorted
+# Expected: O(n log n)
+
 import math
 
 def quick_sort(arr):
