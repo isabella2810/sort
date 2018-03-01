@@ -1,3 +1,8 @@
+# Analysis of insertion sort
+# Best case: when the array is already sorted: O(n)
+# Worst case: when the array is reversely sorted: O(n^2)
+# Average: The average case is also O(n^2), which makes insertion sort impractical for sorting large arrays.
+
 def insertion_sort(arr):
   s=len(arr)
   
