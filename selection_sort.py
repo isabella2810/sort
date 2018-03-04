@@ -1,3 +1,5 @@
+# Time Complexity: О(n2) comparisons, О(n) swaps
+
 def selection_sort(arr):
   s=len(arr)
   if (s<2):
