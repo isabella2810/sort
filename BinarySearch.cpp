@@ -3,6 +3,11 @@
 
 using namespace std;
 
+/*
+ * Binary Search Algorithm
+ * T(n) = O(logN) where N is array size
+ * Implemented in iterative loops (can also be implemented by recursive function)
+*/
 class BinarySearch{
 public:
   //Pre-condition: numbers is already sorted in ascending order!!!
